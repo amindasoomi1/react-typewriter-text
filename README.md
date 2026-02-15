@@ -40,7 +40,7 @@ yarn add react-typewriter-text
 ### Using the Component
 
 ```tsx
-import TypewriterText from "react-typewriter-text";
+import { TypewriterText } from "react-typewriter-text";
 
 export default function Example() {
   return (
