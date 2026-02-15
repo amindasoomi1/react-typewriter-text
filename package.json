@@ -39,5 +39,21 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/amindasoomi1/react-typewriter-text.git"
-  }
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "typewriter",
+    "typewriter-effect",
+    "typing-effect",
+    "text-animation",
+    "animated-text",
+    "react-typewriter",
+    "react-text-animation",
+    "ui-animation",
+    "react-utility",
+    "typescript",
+    "frontend",
+    "lightweight"
+  ]
 }
