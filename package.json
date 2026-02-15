@@ -1,0 +1,43 @@
+{
+  "name": "react-typewriter-text",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "pack": "npm run build && npm pack",
+    "release": "npm run build && npm version patch --no-git-tag-version --no-commit-hooks && npm publish"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "path": "^0.12.7",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "typescript": "^5.2.2",
+    "vite": "^7.3.0",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "author": "Amin Dasoomi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amindasoomi1/react-typewriter-text.git"
+  }
+}
