@@ -56,7 +56,7 @@ export default function Example() {
 ### Using the Hook
 
 ```tsx
-import useTypewriterText from "react-typewriter-text";
+import { useTypewriterText } from "react-typewriter-text";
 
 export default function Example() {
   const [text, controls] = useTypewriterText(["First", "Second", "Third"], {
